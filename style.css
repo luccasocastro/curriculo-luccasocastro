@@ -24,6 +24,12 @@
 .instituicao {
     font-weight: bolder;
 }
+.ucc {
+    color: darkgray;
+    font-size: smaller;
+    text-align: justify;
+    padding-top: 5px;
+}
 
 h1 {
     text-align: left;
