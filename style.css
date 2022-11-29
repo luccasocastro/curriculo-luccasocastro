@@ -57,35 +57,30 @@ p a:hover {
         margin-right: 100px;
     }
 }
-
 @media(min-width: 850px){
     .card {
         margin-left: 200px;
         margin-right: 200px;
     }
 }
-
 @media(min-width: 1080px){
     .card {
         margin-left: 300px;
         margin-right: 300px;
     }
 }
-
 @media(min-width: 1280px){
     .card {
         margin-left: 400px;
         margin-right: 400px;
     }
 }
-
 @media(min-width: 1450px){
     .card {
         margin-left: 500px;
         margin-right: 500px;
     }
 }
-
 @media(min-width: 1669px){
     .card {
         margin-left: 600px;
