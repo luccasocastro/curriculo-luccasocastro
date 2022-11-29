@@ -5,6 +5,26 @@
     padding: 0;
 }
 
+h1 {
+    text-align: left;
+}
+
+h2 {
+    text-align: left;
+    padding-top: 40px;
+}
+
+p a {
+    color: unset;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 2px;
+}
+
 .card {
     padding: 50px 10px;
     text-align: center;
@@ -31,22 +51,44 @@
     padding-top: 5px;
 }
 
-h1 {
-    text-align: left;
+@media(min-width: 685px){
+    .card {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
 }
 
-h2 {
-    text-align: left;
-    padding-top: 40px;
+@media(min-width: 850px){
+    .card {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
 }
 
-p a {
-    color: unset;
-    text-decoration: none;
+@media(min-width: 1080px){
+    .card {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
 }
 
-p a:hover {
-    color: white;
-    background-color: cornflowerblue;
-    border-radius: 2px;
+@media(min-width: 1280px){
+    .card {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+}
+
+@media(min-width: 1450px){
+    .card {
+        margin-left: 500px;
+        margin-right: 500px;
+    }
+}
+
+@media(min-width: 1669px){
+    .card {
+        margin-left: 600px;
+        margin-right: 620px;
+    }
 }
